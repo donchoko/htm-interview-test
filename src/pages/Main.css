@@ -1,0 +1,13 @@
+.main {
+    background-color: var(--background-color);
+    margin-top: 150px;
+}
+
+.content {
+    display: flex;
+    max-width: 100%;
+}
+
+.searchFilter {
+    padding-bottom: 20px;
+}

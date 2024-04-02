@@ -1,0 +1,12 @@
+.footer {
+    min-width: 100%;
+    min-height: 120px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.footerLogo {
+    filter: grayscale(100%);
+    opacity: 0.4;
+}
