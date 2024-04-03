@@ -11,3 +11,18 @@
 .searchFilter {
     padding-bottom: 20px;
 }
+
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.cardImage {
+    width: 100% 
+}
+
+.notFound {
+    width: 30%;
+}

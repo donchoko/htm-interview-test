@@ -13,7 +13,7 @@ function Header() {
         <Grid container justifyContent={'center'}>
           <Grid item md={4}>
             <div className='logo'>
-              <img src={logo} alt="Your SVG" onClick={onLogoClick} />
+              <img src={logo} alt="header-logo" onClick={onLogoClick} />
             </div>
           </Grid>
           <Grid item container md={3} xs={7} className='navbar' justifyContent={'space-around'}>

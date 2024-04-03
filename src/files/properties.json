@@ -43,7 +43,8 @@
     "online": true,
     "images": [
 
-    ]
+    ],
+    "mainImage": "https://storefront.htmniseko.com/skye/1265/thumbnail_1.jpg"
   },
   {
     "id": 1092,
@@ -87,7 +88,8 @@
     "online": true,
     "images": [
 
-    ]
+    ],
+    "mainImage": "https://storefront.htmniseko.com/skye/2810000000/thumbnail_1.jpg"
   },
   {
     "id": 1093,
@@ -133,7 +135,8 @@
     "online": true,
     "images": [
 
-    ]
+    ],
+    "mainImage": "https://storefront.htmniseko.com/skye/1264/thumbnail_1.jpg"
   },
   {
     "id": 6,
@@ -177,7 +180,8 @@
     "online": true,
     "images": [
 
-    ]
+    ],
+    "mainImage": "https://storefront.htmniseko.com/skye/1264/thumbnail_1.jpg"
   },
   {
     "id": 7,
@@ -221,6 +225,7 @@
     "online": true,
     "images": [
 
-    ]
+    ],
+    "mainImage": "https://storefront.htmniseko.com/skye/1263/thumbnail_1.jpg"
   }
 ]

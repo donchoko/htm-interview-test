@@ -4,22 +4,27 @@ import { ImageList, ImageListItem, ImageListItemBar, Tooltip, useMediaQuery } fr
 import './PropertyList.css';
 
 interface PropertyListProps {
-    items: Property[]
+    items: Property[];
+    setSelectedProperty: (p: Property) => void;
 }
 
-const PropertyList = ({ items }: PropertyListProps) => {
+const PropertyList = ({ items, setSelectedProperty}: PropertyListProps) => {
     const theme = useTheme();
     const query = useMediaQuery(theme.breakpoints.down('sm'));
 
+    const selectProperty = (property: Property) => {
+       setSelectedProperty(property);
+    };
+
     return (
         <>
-            {items ?
+            {items && items.length > 0 &&
                 <ImageList cols={query ? 1 : 3} gap={50}>
                     {items.map((item: Property) => {
                         return (
-                            <ImageListItem key={item.id} className='imageListItem'>
+                            <ImageListItem key={item.id} className='imageListItem' onClick={() => selectProperty(item)}>
                                 <img
-                                    src="https://storefront.htmniseko.com/skye/1263/thumbnail_1.jpg"
+                                    src={item.mainImage}
                                     alt={item.name}
                                     loading="lazy"
                                     className='imageItem'
@@ -61,8 +66,7 @@ const PropertyList = ({ items }: PropertyListProps) => {
                             </ImageListItem>
                         )
                     })}
-                </ImageList> :
-                <div>No items to display</div>
+                </ImageList>
             }
         </>
     );
