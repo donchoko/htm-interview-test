@@ -18,8 +18,8 @@ function Header() {
           </Grid>
           <Grid item container md={3} xs={7} className='navbar' justifyContent={'space-around'}>
             <Link href="/">Home</Link>
-            <Link href="/about">About</Link>
-            <Link href="/about">
+            <Link href="https://www.htmniseko.com/" target="_blank" rel="noopener">HTM</Link>
+            <Link href="https://github.com/donchoko/htm-interview-test/tree/main" target="_blank" rel="noopener">
               <Stack direction="row" alignItems="center" gap={1}>
                 Code <CodeIcon fontWeight={"bold"} />
               </Stack>
